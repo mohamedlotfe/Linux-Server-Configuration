@@ -11,21 +11,23 @@ A deep understanding of exactly what web applications are doing, how they are ho
 <h1> http://lotfy.tk/ </h1>
  IP Address: 35.188.109.4
   SSH Port: 2200 
-  
+<strong>grader@35.188.109.4 -p 2200 -i m(pivate_Key)</strong></li><br>
+
+
 <h3>Steps For Configure Linux server Project</h3>
- 
 <li> <strong>create Linux server instance:-> </strong><br>
-<strong>lotfy@35.188.109.4 -p 22 -i m(pivate_Key)</strong></li><br>
 
 <li><strong>Create New User:-> </strong><br>
  $ sudo adduser grader<br> 
  Add the this to  created file:-> $ sudo nano /etc/sudoers.d/grader -->  grader ALL=(ALL:ALL) ALL<br>
  Add the host to hosts file   :->  $ sudo nano /etc/hosts           --> 127.0.1.1 localhost ip-35-188-109-4</li><br>
 
+
 <li><strong>Change the SSH port from 22 to 2200 :--> </strong><br>
   $ sudo nano /etc/ssh/sshd_config . <br>
 Find the Port line and edit it to 2200. <br>
   $ sudo service ssh restart</li> <br>
+
 
 <li><strong>Change timezone to UTC.</strong><br>
   $ sudo timedatectl set-timezone UTC </li><br>
