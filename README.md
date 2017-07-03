@@ -9,8 +9,8 @@ A baseline installation of a Linux distribution on a virtual machine and prepare
 A deep understanding of exactly what web applications are doing, how they are hosted, and the interactions between multiple systems are. This project, turns a brand-new, bare bones, Linux server into the secure and efficient web application host that a Data Driven Web Applications Needs.
 <br>
 <h1> http://lotfy.tk/ </h1>
- IP Address: 35.188.109.4
-  SSH Port: 2200 
+ IP Address: 35.188.109.4 <br>
+  SSH Port: 2200 <br>
 <strong>grader@35.188.109.4 -p 2200 -i m(pivate_Key)</strong></li><br>
 
 
